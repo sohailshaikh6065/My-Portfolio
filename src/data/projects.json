@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "title": "LeafNetra.AI",
+    "description": "LeafNetra.ai is a deep-learning–based plant disease detection system that analyzes leaf images using CNNs. It delivers real-time predictions through a Flask backend and a farmer-friendly web interface.",
+    "image": "public/csp.jpeg",
+    "tags": ["Python", "CNN", "OpenCV", "Tensorflow", "Pytorch", "HTML & CSS", "JavaScript", "TailwindCSS"],
+    "category": "fullstack",
+    "githubUrl": "https://github.com/sohailshaikh6065/CNN-Project",
+    "demoUrl": "https://www.leafnetra.ai/",
+    "period": "October 20254 - December 2025",
+    "role": "Team Leader & Full Stack Developer",
+    "teamSize": 4,
+    "featured": true
+  },
+  {
+    "id": 2,
+    "title": "Customer Segmentation & Prediction",
+    "description": "Customer Segmentation and Prediction is a machine-learning system that clusters customers based on behavioral data and predicts future segments to support data-driven decisions.",
+    "image": "public/lna.jpeg",
+    "tags": ["Spring Boot", "React", "JWT", "WebSocket", "MariaDB", "Cloudinary"],
+    "category": "fullstack",
+    "githubUrl": "https://github.com/sohailshaikh6065/Deep-Learning_Sohil-Shaikh",
+    "demoUrl": "https://github.com/sohailshaikh6065/Deep-Learning_Sohil-Shaikh",
+    "period": "Sep 2025 - Nov 2025",
+    "role": "Fullstack Developer",
+    "teamSize": 2,
+    "featured": true
+  },
+  {
+    "id": 3,
+    "title": "Sameer Photo And Films",
+    "description": "Sameer Photo and Films is a portfolio website showcasing professional photography and videography work, highlighting creative projects, services, and visual storytelling in a clean, client-focused layout.",
+    "image": "public/spf.jpeg",
+    "tags": ["TailwindCSS 4", "HTML", "JavaScript", "Vercel", "Git", "Github"],
+    "category": "fullstack",
+    "githubUrl": "https://github.com/sohailshaikh6065/Sameer-Photography",
+    "demoUrl": "https://github.com/sohailshaikh6065/Sameer-Photography",
+    "period": "Dec 2025 - Jan 2026",
+    "role": "Fullstack Developer",
+    "teamSize": 1,
+    "featured": false
+  },
+  {
+    "id": 4,
+    "title": "Portfolio Website",
+    "description": "Modern portfolio with React 19, TailwindCSS 4, Three.js animations, SEO optimization, and responsive design.",
+    "image": "/logo.png",
+    "tags": ["React 19", "TailwindCSS 4", "Three.js", "Framer Motion", "Vite"],
+    "category": "frontend",
+    "githubUrl": "https://github.com/giasinguyen/giasi-dev-portfolio",
+    "demoUrl": "https://nguyentrangiasi.id.vn/",
+    "period": "April 2025 - July 2025",
+    "role": "Front-end Developer",
+    "teamSize": 1,
+    "featured": false
+  }
+]
