@@ -3,7 +3,6 @@ import { motion } from 'framer-motion'
 import SEOHead from '../SEO/SEOHead'
 import { SEO_CONFIGS } from '../SEO/seoConfigs'
 import { 
-  SiSpringboot, 
   SiReact, 
   SiTailwindcss, 
   SiMysql, 
@@ -13,16 +12,16 @@ import {
   SiIntellijidea,
   SiPostman,
   SiMariadb,
-  SiFramer,
   SiCloudinary,
   SiVercel,
   SiGithub,
-  SiJavascript,
-  SiTypescript,
-  SiNeo4J
+  SiNeo4J,
+  SiPython,
+  SiFlask,
+  SiDjango
   
 } from 'react-icons/si'
-import { FaDatabase, FaTools, FaCloud, FaRocket, FaJava, FaCube, FaBox, FaCode, FaBrain } from 'react-icons/fa'
+import { FaDatabase, FaTools, FaCloud, FaRocket, FaJava, FaBox, FaCode, FaBrain, FaHtml5, FaCss3Alt, FaJs } from 'react-icons/fa'
 
 function TechStack() {
   // Tech Stack data organized by categories
@@ -35,10 +34,10 @@ function TechStack() {
       bgColor: "bg-orange-500/10",
       borderColor: "border-orange-500/20",
       technologies: [
-        { name: "Java", icon: FaJava, level: "Expert", color: "#ED8B00" },
-        { name: "Spring Boot", icon: SiSpringboot, level: "Advanced", color: "#6DB33F" },
-        { name: "Spring Security", icon: SiSpringboot, level: "Advanced", color: "#6DB33F" },
-        { name: "Spring Data JPA", icon: SiSpringboot, level: "Advanced", color: "#6DB33F" },
+        { name: "Python", icon: SiPython, level: "Expert", color: "#3776AB" },
+        { name: "Flask", icon: SiFlask, level: "Advanced", color: "#000000" },
+        { name: "Django", icon: SiDjango, level: "Advanced", color: "#092E20" },
+        { name: "Java", icon: FaJava, level: "Advanced", color: "#ED8B00" },
         { name: "WebSocket", icon: FaCode, level: "Intermediate", color: "#FF6B6B" },
         { name: "Maven", icon: FaBox, level: "Proficient", color: "#C71A36" }
       ]
@@ -51,10 +50,11 @@ function TechStack() {
       bgColor: "bg-amber-500/10",
       borderColor: "border-amber-500/20",
       technologies: [
+        { name: "HTML5", icon: FaHtml5, level: "Expert", color: "#E34F26" },
+        { name: "CSS3", icon: FaCss3Alt, level: "Expert", color: "#1572B6" },
+        { name: "JavaScript", icon: FaJs, level: "Advanced", color: "#F7DF1E" },
         { name: "React.js", icon: SiReact, level: "Advanced", color: "#61DAFB" },
-        { name: "TailwindCSS", icon: SiTailwindcss, level: "Expert", color: "#06B6D4" },
-        { name: "Three.js", icon: FaCube, level: "Beginner", color: "#000000" },
-        { name: "Framer Motion", icon: SiFramer, level: "Advanced", color: "#0055FF" }
+        { name: "TailwindCSS", icon: SiTailwindcss, level: "Expert", color: "#06B6D4" }
       ]
     },
     {
@@ -132,8 +132,8 @@ function TechStack() {
     {
       id: 3,
       name: "Portfolio Website",
-      description: "Modern responsive portfolio with 3D animations",
-      techUsed: ["React 19", "Three.js", "TailwindCSS 4", "Framer Motion"],
+      description: "Modern responsive portfolio with interactive animations",
+      techUsed: ["React 19", "TailwindCSS 4", "JavaScript", "Framer Motion"],
       highlight: "Performance-optimized with engaging user experience"
     }
   ], [])
