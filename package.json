@@ -3,16 +3,15 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
   "scripts": {
     "dev": "vite",
-    "build": "npx vite build",
-    "lint": "eslint . --fix",
-    "lint:check": "eslint .",
+    "build": "vite build",
     "preview": "vite preview",
-    "clean": "rm -rf dist node_modules/.vite",
-    "build:prod": "npm run clean && npm run build",
-    "install:clean": "npm cache clean --force && npm install --no-optional",
-    "install:force": "rmdir /s /q node_modules 2>nul & del package-lock.json 2>nul & npm install"
+    "lint": "eslint . --fix",
+    "lint:check": "eslint ."
   },
   "dependencies": {
     "@formspree/react": "^3.0.0",
