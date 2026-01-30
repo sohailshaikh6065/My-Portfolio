@@ -18,7 +18,7 @@
     "title": "Customer Segmentation & Prediction",
     "description": "Customer Segmentation and Prediction is a machine-learning system that clusters customers based on behavioral data and predicts future segments to support data-driven decisions.",
     "image": "/csp.png",
-    "tags": ["Spring Boot", "React", "JWT", "WebSocket", "MariaDB", "Cloudinary"],
+    "tags": ["Python", "Streamlit", "Pandas", "OpenAI", "Numpy", "Scikit-learn"],
     "category": "fullstack",
     "githubUrl": "https://github.com/sohailshaikh6065/Deep-Learning_Sohil-Shaikh",
     "demoUrl": "https://github.com/sohailshaikh6065/Deep-Learning_Sohil-Shaikh",
